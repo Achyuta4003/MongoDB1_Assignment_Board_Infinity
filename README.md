@@ -14,7 +14,7 @@ Request URL:- http://localhost:3000/student/add
 Request Method:- POST
 Request JSON:
 
-### Request URL:- http://localhost:8080/student/add
+### Request URL:- http://localhost:3000/student/add
 ### Request Method:- POST
 ### Request JSON:- 
 {
@@ -26,15 +26,16 @@ Request JSON:
 {
  "result": "Success"
 }
+
 4. Once student details are saved to database, build another API which can be used to
 get stored student details based on student name as shown below:-
 
-![image](./problemeImage/img1.png)
+![image](./problemImage/img1.png)
 
-## Request URL:- localhost:3000/student/getStudentDetails?name=Ramesh
-## Request Method:- GET
-## Query Param:- name
-## Response JSON:-
+### Request URL:- localhost:3000/student/getStudentDetails?name=Ramesh
+### Request Method:- GET
+### Query Param:- name
+### Response JSON:-
 {
  "name": "Ramesh",
  "collegeName": "I.I.T.",
@@ -45,5 +46,5 @@ get stored student details based on student name as shown below:-
 ### `node server`
 
 Runs the server in the development mode.
-Open [http://localhost:8080](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
