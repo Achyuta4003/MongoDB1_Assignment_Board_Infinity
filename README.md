@@ -11,6 +11,7 @@ quote, author
 3. Next build a API route as shown below and write logic to add a quote sent from API
 below into MongoDB database
 
+![image](./problemImage/img1.png)
 
 ### Request URL:- http://localhost:3000/quote/add
 ### Request Method:- POST
